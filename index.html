@@ -153,15 +153,18 @@ End Sticky Navigation
 		Start About Section
 		==================================== -->
 
-<section class="bg-one about section">
+<section class="bg-one about section sectionAbout">
+	
 	<div class="container containerAbout">
-		<div class="row">
+		<div class="row rowAbout">
 
 			<div class="col-12">
 				<!-- section title -->
 				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+					<hr>
 					<h2>Sobre <span class="color">Nosotros</span> </h2>
 					<div class="border"></div>
+					<hr>
 				</div>
 				<!-- /section title -->
 			</div>
@@ -220,13 +223,13 @@ End Sticky Navigation
 </section> <!-- End section -->
 
 <section class="section about-2 padding-0 bg-dark" id="about">
-	<div class="container-fluid p-0">
+	<div class="container-fluid p-0 containerabout2">
 		<div class="row no-gutters align-items-center">
 			<div class="col-lg-6">
-				<img class="img-fluid" src="images/about/about-business-man.jpg" alt="">
+				<img class="img-fluid imgAbout2" src="images/about/about-business-man.jpg" alt="">
 			</div>
 			<div class="col-lg-6">
-				<div class="content-block">
+				<div class="content-block contentAbout2">
 					<h2>Somos una Agencia de Diseño Digital.</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet vel et mollitia nemo corporis autem dolores culpa cum mollitia voluptate</p>
@@ -266,13 +269,14 @@ End Sticky Navigation
 <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section-sm bg-1 overly">
+<section class="call-to-action section-sm bg-2 overly">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Gran diseño y características increíbles</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
-				<a href="contact.html" class="btn btn-main">Comienza un proyecto con nosotros</a>
+			<div class="col-md-12 text-center colTextCall">
+				<h2 id="h2Call">Gran diseño y características increíbles</h2>
+				<p id="pCall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
+				<a href="contact.html" class="btn btn-main btnMain">Comienza un proyecto con nosotros</a><br>
+			<br>
 			</div>
 		</div> <!-- End row -->
 	</div> <!-- End container -->
@@ -280,23 +284,25 @@ Start Call To Action
 
 <!-- Start Services Section
 ==================================== -->
-<section id="services" class="bg-one section">
-	<div class="container">
-		<div class="row">
+<section id="services" class="bg-one section sectionServices">
+	<div class="container containerServices">
+		<div class="row rowServices">
 
 			<div class="col-lg-12">
 				<!-- section title -->
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<hr>
 					<h2>Nuestros <span class="color">Servicios</span></h2>
 					<div class="border"></div>
+					<hr>
 				</div>
 				<!-- /section title -->
 			</div>
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-globe"></i>
 					</div>
 					<h3>Tema de WordPress</h3>
@@ -307,9 +313,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-ion-laptop"></i>
 					</div>
 					<h3>Diseño Responsivo</h3>
@@ -320,9 +326,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-genius"></i>
 					</div>
 					<h3>Medios &amp; publicidad</h3>
@@ -333,9 +339,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-dial"></i>
 					</div>
 					<h3>Diseño gráfico</h3>
@@ -346,12 +352,12 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-target3"></i>
 					</div>
-					<h3>Desarrollo de aplicaciones</h3>
+					<h3>Desarrollo de Apps</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 						iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
@@ -359,9 +365,10 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-				<div class="service-block text-center kill-margin-bottom">
-					<div class="service-icon text-center">
+			<article class="col-lg-4 col-md-6 serviceItem wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+				<!-- <div class="service-block text-center serviceBlok kill-margin-bottom"> -->
+				<div class="service-block text-center serviceBlok">
+					<div class="service-icon text-center serviceIcon">
 						<i class="tf-lifesaver"></i>
 					</div>
 					<h3>Redes</h3>
@@ -689,7 +696,7 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Abul Mal Muhit</h4>
+						<h4 class="h5">Anthony ipsum dolor</h4>
 						<span>CEO/Fundador</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
@@ -722,7 +729,7 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Frank Miller</h4>
+						<h4 class="h5">Jacob ipsum dolor</h4>
 						<span>Gerente</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
@@ -754,7 +761,7 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Michael Jonson</h4>
+						<h4 class="h5">Katherine ipsum dolor</h4>
 						<span>Desarrollador web</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
@@ -786,7 +793,7 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Mo. Kha. Alamgir</h4>
+						<h4 class="h5">Matthew ipsum dolor</h4>
 						<span>Especialista en SEO</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
@@ -1215,11 +1222,11 @@ Start Our Team
 				<!-- Footer Social Links -->
 				<div class="social-icon">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href="https://facebook.com/themefisher"><i class="tf-ion-social-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="tf-ion-social-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="tf-ion-social-youtube"></i></a></li>
-						<li class="list-inline-item"><a href="https://dribbble.com/themefisher"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						<li class="list-inline-item"><a href="https://pinterest.com/themefisher"><i class="tf-ion-social-pinterest-outline"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/euterpe1a"><i class="tf-ion-social-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/euterpe1a"><i class="tf-ion-social-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCiDYk4P1n_FsocdNk8Yf0Bw"><i class="tf-ion-social-youtube"></i></a></li>
+						<li class="list-inline-item"><a href="https://euterpeproject.github.io/euterpe/"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+						<li class="list-inline-item"><a href="https://co.pinterest.com/search/pins/?rs=ac&len=2&q=tecnologia%20futurista&eq=tecnologia&etslf=4141"><i class="tf-ion-social-pinterest-outline"></i></a></li>
 					</ul>
 				</div>
 				<!--/. End Footer Social Links -->
@@ -1243,7 +1250,7 @@ Start Our Team
 					<p class="mt-3">Copyright
 						&copy; <script>
 							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved. <br> Designed &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>.</p>
+						</script>. Todos los derechos reservados. <br> Diseñado &amp; Desarrollado por <a href="https://euterpeproject.github.io/meghnasitioempresarial">Meghna | Sitio Empresarial</a>.</p>
 				</div>
 				<!-- /copyright -->
 

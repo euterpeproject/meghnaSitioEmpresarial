@@ -1963,30 +1963,164 @@ blockquote {
 /*# sourceMappingURL=style.css.map */
 
 
-/*Personalizacion Sobre Nosotros*/
+/*Personalización Sobre Nosotros*/
+/*about section*/
+.sectionAbout{
+  background-color: rgb(0, 0, 0);
+}
 .containerAbout{
-  box-shadow: 0px 0px 50px #fafafa inset;
-  background-color: #000;
-  border-radius: 0px 5px;
-  border: 2px solid white;
-  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 20px white,
+  0px 0px 30px #57CBCC inset;
+  border-radius: 0px 10px;
+
+}
+.rowAbout{
+  margin: auto;
 
 }
 .aboutItem{
-  margin: auto;
+  /* margin: auto; */
+  margin-top: -25px;
+  margin-bottom: 25px;
   padding-top: 15px;
-  box-shadow: 0px 0px 15pt white inset;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
   border-radius: 0px 5px;
   border: 2px solid white;
+
 }
 
 .aboutBlok{
   box-shadow: 0px 0px 40pt #57CBCC inset;
   border-radius: 0px 5px;
   border: 1px solid white;
+  /* margin-bottom: 15px; */
 }
 .iconbox{
   box-shadow: 0px 0px 15px black;
   color: rgb(203, 203, 203);
   text-shadow: 0px 0px 15px white;
+  border: 2px solid rgb(203, 203, 203);
+  border-radius: 5px;
+  
+}
+
+hr{
+  background-color: white;
+}
+
+/*section about-2*/
+.containerabout2{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 80px #57CBCC inset;
+  margin: 5px;
+  background-color: #000;
+
+}
+.contentAbout2{
+  box-shadow: 0px 0px 25px #57CBCC inset;
+  margin: 5px;
+  border-radius: 0px 10px;
+  border: 2px solid black
+  
+}
+.imgAbout2{
+  /* margin: 1px; */
+  box-shadow: 
+  0px 0px 85px #000000;
+  border-radius: 0px 10px;
+  border: 2px solid white;
+}
+
+/*Start Call To Action*/
+.colTextCall{
+  border: 5px solid black;
+  border-radius: 0px 10px;
+  box-shadow: 
+  0px 0px 60px rgb(0, 0, 0),
+  0px 0px 60px rgb(0, 0, 0),
+  0px 0px 70px rgb(0, 0, 0),
+  0px 0px 80px rgb(0, 0, 0) inset,
+  0px 0px 80px rgb(0, 0, 0) inset,
+  0px 0px 80px rgb(0, 0, 0) inset;
+  padding: 15px;
+
+}
+#h2Call{
+  color: rgb(0, 0, 0);
+  text-shadow: 
+  0px 0px 5px rgb(253, 253, 253),
+  0px 0px 5px rgb(253, 253, 253),
+  0px 0px 5px rgb(253, 253, 253);
+
+  /* box-shadow: 0px 0px 5px #000000 inset; */
+
+}
+#pCall{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-shadow: 
+  0px 0px 5px rgb(253, 253, 253),
+  0px 0px 5px rgb(253, 253, 253),
+  0px 0px 5px rgb(253, 253, 253);
+}
+.btnMain{
+  border-radius: 0px 5px;
+  border: 2px solid black;
+  box-shadow: 
+  0px 0px 25px black inset,
+  0px 0px 55px black inset;
+}
+
+
+/*Personalización Nuestros Servicios*/
+/*Start Services Section*/
+.sectionServices{
+  background-color: rgb(0, 0, 0);
+}
+.containerServices{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 20px white,
+  0px 0px 30px #57CBCC inset;
+  border-radius: 0px 10px;
+
+}
+.rowServices{
+  margin: auto;
+
+}
+.serviceItem{
+  /* margin: auto; */
+  margin-top: -25px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 2px solid white;
+
+}
+
+.serviceBlok{
+  box-shadow: 0px 0px 40pt #57CBCC inset;
+  border-radius: 0px 5px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+.serviceIcon{
+  box-shadow: 0px 0px 15px black;
+  color: rgb(203, 203, 203);
+  text-shadow: 0px 0px 15px white;
+  /* border: 2px solid rgb(203, 203, 203); */
+  border-radius: 5px;
+  
+}
+
+hr{
+  background-color: white;
 }
