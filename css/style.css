@@ -1963,16 +1963,22 @@ blockquote {
 /*# sourceMappingURL=style.css.map */
 
 
-/*Personalización Sobre Nosotros*/
+/*----------Personalización------------------*/ 
+body{
+  background-color: black;
+}
+/*----------Sobre Nosotros-------------------*/
 /*about section*/
 .sectionAbout{
-  background-color: rgb(0, 0, 0);
+  /* background-color: black; */
+  background-image: url('../images/backgrounds/astract0.jpg');
+  /* background-repeat: repeat-x; */
 }
 .containerAbout{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 
-  0px 0px 20px white,
-  0px 0px 30px #57CBCC inset;
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
   border-radius: 0px 10px;
 
 }
@@ -1998,6 +2004,7 @@ blockquote {
   border-radius: 0px 5px;
   border: 1px solid white;
   /* margin-bottom: 15px; */
+
 }
 .iconbox{
   box-shadow: 0px 0px 15px black;
@@ -2014,8 +2021,11 @@ hr{
 
 /*section about-2*/
 .containerabout2{
-  border: 2px solid rgb(0, 0, 0);
-  box-shadow: 0px 0px 80px #57CBCC inset;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0px 5px;
+  box-shadow: 
+  0px 0px 50px #ffffff,
+  0px 0px 80px #57CBCC inset;
   margin: 5px;
   background-color: #000;
 
@@ -2031,8 +2041,9 @@ hr{
   /* margin: 1px; */
   box-shadow: 
   0px 0px 85px #000000;
-  border-radius: 0px 10px;
-  border: 2px solid white;
+  /* border-radius: 0px 10px; */
+  /* border: 2px solid white; */
+  padding: 5px;
 }
 
 /*Start Call To Action*/
@@ -2056,8 +2067,6 @@ hr{
   0px 0px 5px rgb(253, 253, 253),
   0px 0px 5px rgb(253, 253, 253);
 
-  /* box-shadow: 0px 0px 5px #000000 inset; */
-
 }
 #pCall{
   font-size: 20px;
@@ -2075,23 +2084,21 @@ hr{
   0px 0px 55px black inset;
 }
 
-
-/*Personalización Nuestros Servicios*/
+/*----------Nuestros Servicios-------------------*/
 /*Start Services Section*/
 .sectionServices{
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url('../images/backgrounds/astract0.jpg');
 }
 .containerServices{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 
-  0px 0px 20px white,
-  0px 0px 30px #57CBCC inset;
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
   border-radius: 0px 10px;
-
 }
 .rowServices{
   margin: auto;
-
 }
 .serviceItem{
   /* margin: auto; */
@@ -2103,9 +2110,7 @@ hr{
   0px 0px 15px white inset;
   border-radius: 0px 5px;
   border: 2px solid white;
-
 }
-
 .serviceBlok{
   box-shadow: 0px 0px 40pt #57CBCC inset;
   border-radius: 0px 5px;
@@ -2123,4 +2128,117 @@ hr{
 
 hr{
   background-color: white;
+  /* background-color: #00E104; */
 }
+
+/*----------Nuestras Habilidades-------------------*/
+/*Start Team Skills*/
+.sectionSkills{
+  /* background-color: rgb(24, 24, 24); */
+  background-image: url('../images/backgrounds/verde.jpg');
+}
+.containerSkills{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.rowSkills{
+  margin: auto;
+}
+.skillsItem{
+  /* margin: auto; */
+  margin-top: -25px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 2px solid white;
+}
+.pSkills{
+  color: rgb(203, 203, 203);
+}
+
+/*----------Nuestros Trabajos-------------------*/
+/*Start Portfolio Section*/
+.sectionPortafolio{
+  background-image: url('../images/backgrounds/astract0.jpg');
+}
+.containerPortafolio{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.rowPortafolio{
+  margin: auto;
+}
+.portafolioFilter{
+  border-radius: 0px 5px;
+  box-shadow: 0px 0px 15px white inset,
+  0px 0px 25px white;
+
+  margin-bottom: 5px;
+
+}
+.portafolioBlock{
+  padding: 1px;
+  box-shadow: 
+  0px 0px 15px white;
+  border-radius: 0px 5px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.imgPortafolio{
+  border-radius: 0px 18px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 5px #57CBCC;
+}
+
+/*----------Nuestro Equipo-------------------*/
+/*Start Our Team*/
+.sectionTeam{
+  background-image: url('../images/backgrounds/astract0.jpg');
+}
+.containerTeam{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.rowTeam{
+  margin: auto;
+}
+.memberTeam{
+  margin-top: -25px;
+  margin-bottom: 25px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 2px solid white;
+}
+.memberName{
+  background-color: black;
+  box-shadow: 0px 0px 25px white inset;
+}
+.h5team{
+  color: rgb(203, 203, 203);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
