@@ -2140,7 +2140,7 @@ hr{
 .containerSkills{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 
-  0px 0px 50px white,
+  0px 0px 70px white,
   0px 0px 20px #57CBCC inset;
   border-radius: 0px 10px;
 }
@@ -2230,8 +2230,50 @@ hr{
   color: rgb(203, 203, 203);
 }
 
-
-
+/*----------Nuestros Mejores Planes-------------------*/
+/*Start Pricing section*/
+.sectionPricing{
+  background-image: url('../images/backgrounds/astract0.jpg');
+}
+.containerPricing{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.singlePricing{
+  margin-top: -25px;
+  margin-bottom: 25px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 2px solid white;
+}
+.priceItem{
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 10px;
+  border: 1px solid white;
+}
+.priceTitle{
+  border-radius: 0px 10px;
+  /* border: 1px solid rgb(255, 255, 255); */
+  background-color: transparent;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255) inset;
+}
+.uldescription{
+  color: rgb(203, 203, 203);
+}
+#lidescription{
+  border-radius: 10px 0px;
+  /* background-color: rgb(15, 15, 15); */
+  /* background-color: rgb(0, 0, 0); */
+  background-color: transparent;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255) inset;
+}
 
 
 
