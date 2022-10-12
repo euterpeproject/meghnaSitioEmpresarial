@@ -1970,24 +1970,21 @@ body{
 /*----------Sobre Nosotros-------------------*/
 /*about section*/
 .sectionAbout{
-  /* background-color: black; */
   background-image: url('../images/backgrounds/astract0.jpg');
-  /* background-repeat: repeat-x; */
 }
 .containerAbout{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 
   0px 0px 50px white,
   0px 0px 20px #57CBCC inset;
+  /* 0px 0px 20px green inset; */
   border-radius: 0px 10px;
 
 }
 .rowAbout{
   margin: auto;
-
 }
 .aboutItem{
-  /* margin: auto; */
   margin-top: -25px;
   margin-bottom: 25px;
   padding-top: 15px;
@@ -1998,13 +1995,11 @@ body{
   border: 2px solid white;
 
 }
-
-.aboutBlok{
-  box-shadow: 0px 0px 40pt #57CBCC inset;
+#aboutBlok{
+  background-color: transparent;
+  box-shadow: 0px 0px 40px #57CBCC inset;
   border-radius: 0px 5px;
   border: 1px solid white;
-  /* margin-bottom: 15px; */
-
 }
 .iconbox{
   box-shadow: 0px 0px 15px black;
@@ -2012,7 +2007,6 @@ body{
   text-shadow: 0px 0px 15px white;
   border: 2px solid rgb(203, 203, 203);
   border-radius: 5px;
-  
 }
 
 hr{
@@ -2058,7 +2052,6 @@ hr{
   0px 0px 80px rgb(0, 0, 0) inset,
   0px 0px 80px rgb(0, 0, 0) inset;
   padding: 15px;
-
 }
 #h2Call{
   color: rgb(0, 0, 0);
@@ -2066,7 +2059,6 @@ hr{
   0px 0px 5px rgb(253, 253, 253),
   0px 0px 5px rgb(253, 253, 253),
   0px 0px 5px rgb(253, 253, 253);
-
 }
 #pCall{
   font-size: 20px;
@@ -2134,15 +2126,24 @@ hr{
 /*----------Nuestras Habilidades-------------------*/
 /*Start Team Skills*/
 .sectionSkills{
-  /* background-color: rgb(24, 24, 24); */
-  background-image: url('../images/backgrounds/verde.jpg');
+  background-image: url('../images/backgrounds/astract0.jpg');
+  /* box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.742) inset; */
+  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerSkills{
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgba(0, 0, 0, 0.832); 
   box-shadow: 
-  0px 0px 70px white,
-  0px 0px 20px #57CBCC inset;
-  border-radius: 0px 10px;
+  0px 0px 40px rgb(255, 255, 255),
+  0px 0px 50px green inset;
+  border-radius: 0px 10px; */
+
+  color: rgba(203, 203, 203, 0.762);
+  border-radius: 10px 0px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 30px rgba(0, 128, 0, 0.742) inset,
+  0px 0px 80px white;
+
 }
 .rowSkills{
   margin: auto;
@@ -2176,6 +2177,7 @@ hr{
 }
 .rowPortafolio{
   margin: auto;
+  margin-top: -25px;
 }
 .portafolioFilter{
   border-radius: 0px 5px;
@@ -2195,7 +2197,8 @@ hr{
 .imgPortafolio{
   border-radius: 0px 18px;
   border: 1px solid #000000;
-  box-shadow: 0px 0px 5px #57CBCC;
+  /* box-shadow: 0px 0px 5px #57CBCC; */
+  box-shadow: 0px 0px 5px green;
 }
 
 /*----------Nuestro Equipo-------------------*/
@@ -2222,9 +2225,19 @@ hr{
   border-radius: 0px 5px;
   border: 2px solid white;
 }
+.teamMenber{
+  border-radius: 0px 10px;
+  border: 1px solid white;
+}
+.imgTeam{
+  border-radius: 0px 10px 0px 0px;
+  background-color: black;
+  box-shadow: 0px 0px 25px white inset;
+}
 .memberName{
   background-color: black;
   box-shadow: 0px 0px 25px white inset;
+  border-radius: 0px 0px 0px 10px;
 }
 .h5team{
   color: rgb(203, 203, 203);
@@ -2234,6 +2247,8 @@ hr{
 /*Start Pricing section*/
 .sectionPricing{
   background-image: url('../images/backgrounds/astract0.jpg');
+  /* box-shadow: 0px 20px 60px 0px rgba(0, 128, 0, 0.742) inset; */
+  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerPricing{
   border: 2px solid rgb(0, 0, 0);
@@ -2241,6 +2256,9 @@ hr{
   0px 0px 50px white,
   0px 0px 20px #57CBCC inset;
   border-radius: 0px 10px;
+}
+.rowPricing{
+  margin: auto;
 }
 .singlePricing{
   margin-top: -25px;
@@ -2269,18 +2287,111 @@ hr{
 }
 #lidescription{
   border-radius: 10px 0px;
-  /* background-color: rgb(15, 15, 15); */
-  /* background-color: rgb(0, 0, 0); */
   background-color: transparent;
   box-shadow: 0px 0px 15px rgb(255, 255, 255) inset;
 }
+#lidescription:hover{
+  border-radius: 10px 0px;
+  background-color: black;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255) inset;
+}
+.btnInscribirse{
+  border-radius: 0px 5px;
+  box-shadow: 0px 0px 15px white,
+  0px 0px 15px white inset;
+}
+.btnInscribirse:hover{
+  box-shadow: 
+  0px 0px 20px black inset,
+  0px 0px 50px black inset;
+}
 
+/*----------últimas Publicaciones-------------------*/
+/*Start Blog Section*/
+.sectionBlog{
+  background-image: url('../images/backgrounds/astract0.jpg');
+}
+.containerBlog{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.rowBlog{
+  margin: auto;
+}
+.singlePost{
+  margin-top: -25px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 2px solid white;
+}
+.imgPost{
+  border-radius: 0px 10px 0px 0px;
+}
+.postBlock{
+  background-color: black;
+  box-shadow: 0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+.btnLeer{
+  border-radius: 0px 5px;
+  box-shadow: 0px 0px 15px white,
+  0px 0px 15px white inset;
+}
+.btnLeer:hover{
+  box-shadow: 
+  0px 0px 20px black inset,
+  0px 0px 50px black inset;
+}
+.btnPublicaciones{
+  margin-top: -35px;
+  border-radius: 0px 5px;
+  box-shadow: 0px 0px 15px white,
+  0px 0px 15px white inset;
+}
+.btnPublicaciones:hover{
+  box-shadow: 
+  0px 0px 20px black inset,
+  0px 0px 50px black inset;
+}
 
+/*-------------Ponerse en Contacto-------------------*/
+/*Srart Contact Us*/
+.sectionContact{
+  background-image: url('../images/backgrounds/astract0.jpg');
+  /* box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.742) inset; */
+  box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.542) inset;
+}
+.contactDetails{
+  color: rgba(203, 203, 203, 0.762);
+  border-radius: 10px 0px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 30px rgba(0, 128, 0, 0.742) inset,
+  0px 0px 50px white;
+}
+.contactForm{
+  border-radius: 10px 0px;
+  box-shadow: 
+  0px 0px 15px rgba(255, 255, 255, 0.742) inset;
+}
+#contact-submit{
+  border-radius: 0px 10px;
+  background-color: rgba(0, 166, 0, 0.742);
+  box-shadow: 0px 0px 50px rgb(0, 0, 0) inset;
+}
 
-
-
-
-
-
-
+/*--------------footer------------------------*/
+.backgroundFooter{
+  background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 0px 80px rgba(252, 252, 252, 0.742) inset;
+}
 
