@@ -1962,15 +1962,16 @@ blockquote {
 }
 /*# sourceMappingURL=style.css.map */
 
-
-/*----------Personalización------------------*/ 
+/*====================================================*/
+/*================Personalización=====================*/
 body{
   background-color: black;
 }
-/*----------Sobre Nosotros-------------------*/
+/*=================Sobre Nosotros==================*/
 /*about section*/
 .sectionAbout{
   background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.499) inset;
 }
 .containerAbout{
   border: 2px solid rgb(0, 0, 0);
@@ -2021,7 +2022,7 @@ hr{
   0px 0px 50px #ffffff,
   0px 0px 80px #57CBCC inset;
   margin: 5px;
-  background-color: #000;
+  background-image: url('../images/backgrounds/astract0.jpg');
 
 }
 .contentAbout2{
@@ -2032,25 +2033,23 @@ hr{
   
 }
 .imgAbout2{
-  /* margin: 1px; */
   box-shadow: 
   0px 0px 85px #000000;
-  /* border-radius: 0px 10px; */
-  /* border: 2px solid white; */
   padding: 5px;
 }
 
 /*Start Call To Action*/
-.colTextCall{
-  border: 5px solid black;
-  border-radius: 0px 10px;
+.sectionCall{
+  background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 20px 0px rgba(255, 255, 255, 0.499) inset;
+}
+.containerCall{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0px 15px;
   box-shadow: 
-  0px 0px 60px rgb(0, 0, 0),
-  0px 0px 60px rgb(0, 0, 0),
-  0px 0px 70px rgb(0, 0, 0),
-  0px 0px 80px rgb(0, 0, 0) inset,
-  0px 0px 80px rgb(0, 0, 0) inset,
-  0px 0px 80px rgb(0, 0, 0) inset;
+  0px 0px 40px white inset,
+  0px 0px 50px white;
+
   padding: 15px;
 }
 #h2Call{
@@ -2076,11 +2075,11 @@ hr{
   0px 0px 55px black inset;
 }
 
-/*----------Nuestros Servicios-------------------*/
+/*===================Nuestros Servicios=========================*/
 /*Start Services Section*/
 .sectionServices{
-  /* background-color: rgb(0, 0, 0); */
   background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 40px 0px rgba(0, 128, 0, 0.783) inset;
 }
 .containerServices{
   border: 2px solid rgb(0, 0, 0);
@@ -2093,7 +2092,6 @@ hr{
   margin: auto;
 }
 .serviceItem{
-  /* margin: auto; */
   margin-top: -25px;
   margin-bottom: 25px;
   padding-top: 15px;
@@ -2120,28 +2118,21 @@ hr{
 
 hr{
   background-color: white;
-  /* background-color: #00E104; */
 }
 
-/*----------Nuestras Habilidades-------------------*/
+/*====================Nuestras Habilidades=================*/
 /*Start Team Skills*/
 .sectionSkills{
   background-image: url('../images/backgrounds/astract0.jpg');
-  /* box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.742) inset; */
   box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerSkills{
-  /* border: 2px solid rgba(0, 0, 0, 0.832); 
-  box-shadow: 
-  0px 0px 40px rgb(255, 255, 255),
-  0px 0px 50px green inset;
-  border-radius: 0px 10px; */
-
   color: rgba(203, 203, 203, 0.762);
   border-radius: 10px 0px;
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 
-  0px 0px 30px rgba(0, 128, 0, 0.742) inset,
+  /* 0px 0px 30px rgba(0, 128, 0, 0.742) inset, */
+  0px 0px 30px rgba(246, 246, 246, 0.742) inset,
   0px 0px 80px white;
 
 }
@@ -2149,7 +2140,6 @@ hr{
   margin: auto;
 }
 .skillsItem{
-  /* margin: auto; */
   margin-top: -25px;
   margin-bottom: 25px;
   padding-top: 15px;
@@ -2163,10 +2153,11 @@ hr{
   color: rgb(203, 203, 203);
 }
 
-/*----------Nuestros Trabajos-------------------*/
+/*==================Nuestros Trabajos=============*/
 /*Start Portfolio Section*/
 .sectionPortafolio{
   background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 40px 0px rgba(0, 128, 0, 0.783) inset;
 }
 .containerPortafolio{
   border: 2px solid rgb(0, 0, 0);
@@ -2201,10 +2192,54 @@ hr{
   box-shadow: 0px 0px 5px green;
 }
 
-/*----------Nuestro Equipo-------------------*/
+/*Start Counter Section*/
+.sectionCounter{
+  background-image: url('../images/backgrounds/negroHumo.jpg');
+}
+.containerCounter{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0px 15px;
+  box-shadow: 
+  0px 0px 30px white;
+  padding: 15px;
+}
+.rowCounter{
+  margin: auto;
+}
+.countItem{
+  padding-top: 15px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 1px solid white;
+}
+.counters-item{
+  color: rgb(203, 203, 203);
+  background-color: transparent;
+  box-shadow: 
+  0px 0px 10px white;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0px 5px;
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+
+}
+.countIcon{
+  padding: 5px 15px;
+  border-radius: 0px 5px;
+  border: 1px solid white;
+  box-shadow: 
+  0px 0px 15px white inset,
+  0px 0px 50px white;
+}
+
+/*==================Nuestro Equipo=====================*/
 /*Start Our Team*/
 .sectionTeam{
   background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 40px 0px rgba(0, 128, 0, 0.783) inset;
 }
 .containerTeam{
   border: 2px solid rgb(0, 0, 0);
@@ -2243,11 +2278,10 @@ hr{
   color: rgb(203, 203, 203);
 }
 
-/*----------Nuestros Mejores Planes-------------------*/
+/*===================Nuestros Mejores Planes=================*/
 /*Start Pricing section*/
 .sectionPricing{
   background-image: url('../images/backgrounds/astract0.jpg');
-  /* box-shadow: 0px 20px 60px 0px rgba(0, 128, 0, 0.742) inset; */
   box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerPricing{
@@ -2278,7 +2312,6 @@ hr{
 }
 .priceTitle{
   border-radius: 0px 10px;
-  /* border: 1px solid rgb(255, 255, 255); */
   background-color: transparent;
   box-shadow: 0px 0px 30px rgb(255, 255, 255) inset;
 }
@@ -2306,10 +2339,35 @@ hr{
   0px 0px 50px black inset;
 }
 
-/*----------últimas Publicaciones-------------------*/
+
+/*==================Start Testimonial=====================*/
+.sectionTestimonial{
+  background-image: url('../images/backgrounds/negroHumo.jpg');
+  /* box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset; */
+  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0) inset;
+}
+.containerTestimonial{
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0px 15px;
+  box-shadow: 
+  0px 0px 50px rgb(255, 255, 255),
+  0px 0px 30px white inset;
+
+  padding: 25px;
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+
+}
+.h3client{
+  color: rgb(203, 203, 203);
+}
+
+/*==================últimas Publicaciones=================*/
 /*Start Blog Section*/
 .sectionBlog{
   background-image: url('../images/backgrounds/astract0.jpg');
+  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerBlog{
   border: 2px solid rgb(0, 0, 0);
@@ -2363,7 +2421,7 @@ hr{
   0px 0px 50px black inset;
 }
 
-/*-------------Ponerse en Contacto-------------------*/
+/*==================Ponerse en Contacto===============*/
 /*Srart Contact Us*/
 .sectionContact{
   background-image: url('../images/backgrounds/astract0.jpg');
@@ -2371,14 +2429,19 @@ hr{
   box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.542) inset;
 }
 .contactDetails{
+  margin: auto;
+  margin-top: -16px;
+  margin-bottom: 30px;
   color: rgba(203, 203, 203, 0.762);
   border-radius: 10px 0px;
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 
   0px 0px 30px rgba(0, 128, 0, 0.742) inset,
+  /* 0px 0px 20px white inset, */
   0px 0px 50px white;
 }
 .contactForm{
+  margin-top: 0px;
   border-radius: 10px 0px;
   box-shadow: 
   0px 0px 15px rgba(255, 255, 255, 0.742) inset;
@@ -2389,7 +2452,7 @@ hr{
   box-shadow: 0px 0px 50px rgb(0, 0, 0) inset;
 }
 
-/*--------------footer------------------------*/
+/*===================footer====================*/
 .backgroundFooter{
   background-image: url('../images/backgrounds/astract0.jpg');
   box-shadow: 0px 0px 80px rgba(252, 252, 252, 0.742) inset;

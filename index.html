@@ -269,10 +269,10 @@ End Sticky Navigation
 <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section-sm bg-2 overly">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center colTextCall">
+<section class="call-to-action parallax-section sectionCall section-sm overly">
+	<div class="container containerCall">
+		<div class="row rowCall">
+			<div class="col-md-12 text-center">
 				<h2 id="h2Call">Gran diseño y características increíbles</h2>
 				<p id="pCall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
 				<a href="contact.html" class="btn btn-main btnMain">Comienza un proyecto con nosotros</a><br>
@@ -610,14 +610,14 @@ Start Call To Action
 Start Counter Section
 ==================================== -->
 
-<section id="counter" class="parallax-section bg-1 section overly">
-	<div class="container">
-		<div class="row">
+<section id="counter" class="parallax-section sectionCounter section">
+	<div class="container containerCounter">
+		<div class="row rowCounter">
 
 			<!-- first count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center countItem wow fadeInDown" data-wow-duration="500ms">
 				<div class="counters-item">
-					<i class="tf-ion-android-happy"></i>
+					<i class="tf-ion-android-happy countIcon"></i>
 					<span class="jsCounter" data-count="320">0</span>
 					<h3>Clientes Felices</h3>
 				</div>
@@ -625,10 +625,10 @@ Start Counter Section
 			<!-- end first count item -->
 
 			<!-- second count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center countItem wow fadeInDown" data-wow-duration="500ms"
 				data-wow-delay="200ms">
 				<div class="counters-item">
-					<i class="tf-ion-archive"></i>
+					<i class="tf-ion-archive countIcon"></i>
 					<span class="jsCounter" data-count="565">0</span>
 					<h3>Proyectos completados</h3>
 				</div>
@@ -636,10 +636,10 @@ Start Counter Section
 			<!-- end second count item -->
 
 			<!-- third count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center countItem wow fadeInDown" data-wow-duration="500ms"
 				data-wow-delay="400ms">
 				<div class="counters-item">
-					<i class="tf-ion-thumbsup"></i>
+					<i class="tf-ion-thumbsup countIcon"></i>
 					<span class="jsCounter" data-count="95">0</span>
 					<h3>Retroalimentación positiva</h3>
 
@@ -648,10 +648,11 @@ Start Counter Section
 			<!-- end third count item -->
 
 			<!-- fourth count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center countItem wow fadeInDown" data-wow-duration="500ms"
 				data-wow-delay="600ms">
-				<div class="counters-item kill-margin-bottom">
-					<i class="tf-ion-coffee"></i>
+				<!-- <div class="counters-item kill-margin-bottom"> -->
+				<div class="counters-item">
+					<i class="tf-ion-coffee countIcon"></i>
 					<span class="jsCounter" data-count="2500">0</span>
 					<h3>Tazas de café</h3>
 				</div>
@@ -817,7 +818,6 @@ Start Our Team
 
 <!-- Start Pricing section
 =========================================== -->
-<hr>
 
 <section id="pricing" class="pricing section sectionPricing section-bg">
 	<div class="container containerPricing">
@@ -966,8 +966,8 @@ Start Our Team
 <!-- Start Testimonial
 =========================================== -->
 
-<section id="testimonial" class="testimonial overly section bg-2">
-	<div class="container">
+<section id="testimonial" class="testimonial parallax-section sectionTestimonial section">
+	<div class="container containerTestimonial">
 		<div class="row">
 			<div class="col-lg-12">
 				<!-- testimonial wrapper -->
@@ -985,7 +985,7 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
+								<h3 class="h3client">Jonathon Andrew</h3>
 								<span>Dec 26, 2018</span>
 							</div>
 							<div class="client-comment">
@@ -1010,7 +1010,7 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
+								<h3 class="h3client">Jonathon Andrew</h3>
 								<span>Dec 26, 2018</span>
 							</div>
 							<div class="client-comment">
@@ -1035,7 +1035,7 @@ Start Our Team
 						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
+								<h3 class="h3client">Jonathon Andrew</h3>
 								<span>Dec 26, 2018</span>
 							</div>
 							<div class="client-comment">
@@ -1209,15 +1209,13 @@ Start Our Team
 					<div id="cf-submit">
 						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
 					</div>
-
+					<!-- <hr> -->
 				</form>
 			</div>
 			<!-- ./End Contact Form -->
-
 		</div> <!-- end row -->
-		<hr>
 	</div> <!-- end container -->
-	<hr>
+	<hr style="background-color: green;">
 	<!-- Google Map -->
 	<div class="google-map" style="opacity: 0.8;">
 		<!-- Google Map -->
