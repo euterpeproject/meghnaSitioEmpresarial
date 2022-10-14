@@ -1096,6 +1096,7 @@ a:hover {
 .member-photo {
   overflow: hidden;
   position: relative;
+  padding: 5px;
 }
 @media (max-width: 768px) {
   .member-photo {
@@ -1967,6 +1968,20 @@ blockquote {
 body{
   background-color: black;
 }
+
+/*=================Welcome Slider=================*/
+.btnSlider{
+  border-radius: 0px 5px;
+  box-shadow: 
+  /* 0px 0px 15px white, */
+  0px 0px 15px white inset;
+}
+.btnSlider:hover{
+  box-shadow: 
+  0px 0px 30px black inset,
+  0px 0px 80px black inset;
+}
+
 /*=================Sobre Nosotros==================*/
 /*about section*/
 .sectionAbout{
@@ -2011,10 +2026,30 @@ body{
 }
 
 hr{
-  background-color: white;
+  /* background-color: white; */
+  border: 1px solid white;
+  box-shadow: 
+  0px 0px 10px white,
+  0px 0px 10px white,
+  0px 0px 10px white;
+}
+.hrgreen{
+  /* background-color: rgba(13, 255, 0, 0.737); */
+  border: 1px solid rgba(13, 255, 0, 0.737);
+  box-shadow: 
+  0px 0px 10px rgba(13, 255, 0, 0.737),
+  0px 0px 10px rgba(13, 255, 0, 0.737),
+  0px 0px 10px rgba(13, 255, 0, 0.737);
+}
+.hrgreen2{
+  border: 1px solid rgba(9, 175, 0, 0.737);
+  box-shadow: 
+  0px 0px 10px rgba(13, 175, 0, 0.737),
+  0px 0px 10px rgba(13, 175, 0, 0.737),
+  0px 0px 10px rgba(13, 175, 0, 0.737);
 }
 
-/*section about-2*/
+/*===================section about-2==============*/
 .containerabout2{
   border: 1px solid rgb(0, 0, 0);
   border-radius: 0px 5px;
@@ -2038,16 +2073,17 @@ hr{
   padding: 5px;
 }
 
-/*Start Call To Action*/
+/*================Start Call To Action============*/
 .sectionCall{
   background-image: url('../images/backgrounds/astract0.jpg');
+  /* background-repeat: round; */
   box-shadow: 0px 20px 20px 0px rgba(255, 255, 255, 0.499) inset;
 }
 .containerCall{
   border: 2px solid rgb(0, 0, 0);
   border-radius: 0px 15px;
   box-shadow: 
-  0px 0px 40px white inset,
+  0px 0px 45px white inset,
   0px 0px 50px white;
 
   padding: 15px;
@@ -2071,8 +2107,15 @@ hr{
   border-radius: 0px 5px;
   border: 2px solid black;
   box-shadow: 
-  0px 0px 25px black inset,
-  0px 0px 55px black inset;
+  0px 0px 20px white,
+  0px 0px 20px white inset;
+}
+.btnMain:hover{
+  color: rgb(0, 219, 0);
+  background-color: transparent;
+  box-shadow:
+  0px 0px 30px rgb(0, 219, 0),
+  0px 0px 20px white inset;
 }
 
 /*===================Nuestros Servicios=========================*/
@@ -2124,15 +2167,14 @@ hr{
 /*Start Team Skills*/
 .sectionSkills{
   background-image: url('../images/backgrounds/astract0.jpg');
-  box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset;
+  box-shadow: 0px 20px 30px 0px rgba(255, 255, 255, 0.742) inset;
 }
 .containerSkills{
   color: rgba(203, 203, 203, 0.762);
   border-radius: 10px 0px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   box-shadow: 
-  /* 0px 0px 30px rgba(0, 128, 0, 0.742) inset, */
-  0px 0px 30px rgba(246, 246, 246, 0.742) inset,
+  0px 0px 50px white inset,
   0px 0px 80px white;
 
 }
@@ -2170,13 +2212,23 @@ hr{
   margin: auto;
   margin-top: -25px;
 }
-.portafolioFilter{
+.btnPortafolio{
+  background-color: transparent;
   border-radius: 0px 5px;
   box-shadow: 0px 0px 15px white inset,
-  0px 0px 25px white;
-
+  0px 0px 15px white;
+  margin-bottom: 5px;
   margin-bottom: 5px;
 
+}
+.btnPortafolio:hover{
+  color: rgb(203, 203, 203);
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 0px 5px;
+  background-color: transparent;
+  box-shadow:
+  0px 0px 30px white,
+  0px 0px 15px white inset;
 }
 .portafolioBlock{
   padding: 1px;
@@ -2192,7 +2244,7 @@ hr{
   box-shadow: 0px 0px 5px green;
 }
 
-/*Start Counter Section*/
+/*===============Start Counter Section=============*/
 .sectionCounter{
   background-image: url('../images/backgrounds/negroHumo.jpg');
 }
@@ -2218,7 +2270,9 @@ hr{
   color: rgb(203, 203, 203);
   background-color: transparent;
   box-shadow: 
-  0px 0px 10px white;
+  0px 0px 25px white inset,
+  0px 0px 15px rgba(0, 128, 0, 0.4),
+  0px 0px 15px rgba(0, 128, 0, 0.4);
   border: 2px solid rgb(0, 0, 0);
   border-radius: 0px 5px;
 
@@ -2260,9 +2314,11 @@ hr{
   border-radius: 0px 5px;
   border: 2px solid white;
 }
-.teamMenber{
+.teamMember{
   border-radius: 0px 10px;
-  border: 1px solid white;
+  border: 1px solid black;
+  box-shadow: 
+  0px 0px 8px white;
 }
 .imgTeam{
   border-radius: 0px 10px 0px 0px;
@@ -2330,13 +2386,14 @@ hr{
 }
 .btnInscribirse{
   border-radius: 0px 5px;
-  box-shadow: 0px 0px 15px white,
+  box-shadow: 
+  0px 0px 15px white,
   0px 0px 15px white inset;
 }
 .btnInscribirse:hover{
   box-shadow: 
-  0px 0px 20px black inset,
-  0px 0px 50px black inset;
+  0px 0px 30px black inset,
+  0px 0px 80px black inset;
 }
 
 
@@ -2425,7 +2482,6 @@ hr{
 /*Srart Contact Us*/
 .sectionContact{
   background-image: url('../images/backgrounds/astract0.jpg');
-  /* box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.742) inset; */
   box-shadow: 0px 20px 100px 0px rgba(0, 128, 0, 0.542) inset;
 }
 .contactDetails{
@@ -2451,7 +2507,11 @@ hr{
   background-color: rgba(0, 166, 0, 0.742);
   box-shadow: 0px 0px 50px rgb(0, 0, 0) inset;
 }
-
+#contact-submit:hover{
+  background-color: transparent;
+  box-shadow: 
+  0px 0px 20px white inset;
+}
 /*===================footer====================*/
 .backgroundFooter{
   background-image: url('../images/backgrounds/astract0.jpg');
