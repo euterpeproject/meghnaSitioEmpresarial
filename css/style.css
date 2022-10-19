@@ -546,6 +546,7 @@ a:hover {
   padding-right: 15px !important;
   font-size: 16px;
   color: #737f8a;
+
 }
 .navigation .navigation-menu a:hover, .navigation .navigation-menu a:focus {
   background: transparent;
@@ -953,7 +954,6 @@ a:hover {
 }
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: rgb(255, 255, 255);
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -961,6 +961,19 @@ a:hover {
   left: 20px;
   position: absolute;
   content: "";
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+  border: 2px solid black;
+  border-radius: 0px 10px;
+  box-shadow: 
+  0px 0px 50px rgb(255, 255, 255) inset,
+  0px 0px 20px rgb(0, 39, 0),
+  0px 0px 20px rgb(0, 39, 0),
+  0px 0px 20px rgb(0, 39, 0),
+  0px 0px 20px rgb(0, 39, 0),
+  0px 0px 20px rgb(0, 39, 0);
+
 }
 .portfolio-block img {
   width: 100%;
@@ -992,10 +1005,13 @@ a:hover {
   font-weight: 600;
 }
 .portfolio-block .caption h4 a {
-  color: #555;
+  /* color: #555; */
+  color: rgb(203, 203, 203);
 }
 .portfolio-block .caption .search-icon {
-  background: #57cbcc;
+  /* background: #57cbcc; */
+  background: #000000;
+  box-shadow: 0px 0px 15px green inset;
   width: 45px;
   height: 45px;
   color: #fff;
@@ -1478,14 +1494,21 @@ a:hover {
   transform: rotateY(0deg);
 }
 .social-icon ul li:hover a i {
-  color: #fff;
-  opacity: 1;
+  /* color: #fff; */
+  color: green;
+  /* opacity: 1; */
   filter: alpha(opacity=100);
   transform: rotateY(0deg);
 }
 .social-icon ul li a {
-  background-color: #26292e;
+  /* background-color: #26292e; */
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
   border: 1px solid transparent;
+  border-radius: 0px 10px;
+  box-shadow: 
+  0px 0px 15px white inset,
+  0px 0px 15px white;
   display: block;
   height: 70px;
   width: 70px;
@@ -1499,12 +1522,14 @@ a:hover {
   }
 }
 .social-icon ul li a i {
-  color: #55606a;
+  /* color: #55606a; */
+  color: white;
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
   margin: 0;
-  opacity: 0.3;
+  opacity: 0.8;
+
   filter: alpha(opacity=30);
   transform: rotateY(180deg);
   transition: all 400ms ease-out 0s;
