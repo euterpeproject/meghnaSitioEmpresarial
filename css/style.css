@@ -526,8 +526,13 @@ a:hover {
 /*=================================================================
   Navigation
 ==================================================================*/
+#navlink{
+  color: rgb(203, 203, 203);
+}
 .navigation {
-  background-color: #1d2024;
+  /* background-color: #1d2024; */
+
+  background-image: url('../images/backgrounds/astract0.jpg');
   width: 100%;
   z-index: 99;
   margin-bottom: 0;
@@ -535,6 +540,11 @@ a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+
+  box-shadow: 
+  0px 0px 20px white inset,
+  0px 0px 15px rgba(0, 128, 0, 0.731);
+
 }
 .navigation .logo {
   padding: 0;
@@ -546,12 +556,26 @@ a:hover {
   width: 140px;
 }
 .navigation .navigation-menu li a.active {
-  color: #57cbcc !important;
+  /* color: #57cbcc !important; */
+  color: white !important;
+  text-shadow: 
+  0px 0px 5px rgb(0, 255, 0),
+  0px 0px 5px green;
+
+  border: 1px solid rgba(0, 128, 0, 0.604);
+  border-radius: 0px 10px;
+
+  box-shadow: 
+  0px 0px 15px rgb(255, 255, 255) inset,
+  0px 0px 15px #008903,
+  0px 0px 15px #008903;
+  
+
 }
 .navigation .navigation-menu a {
   padding-left: 15px !important;
   padding-right: 15px !important;
-  font-size: 16px;
+  font-size: 20px;
   color: #737f8a;
 
 }
@@ -567,7 +591,13 @@ a:hover {
 .navbar-toggle span {
   background: #fff;
 }
-
+.btnamburguesa{
+  box-shadow: 
+  0px 0px 10px white inset,
+  0px 0px 10px green,
+  0px 0px 10px green;
+  
+}
 .bg-1 {
   background-image: url("../images/backgrounds/bg-1.jpg");
   background-repeat: no-repeat;
@@ -2050,11 +2080,17 @@ body{
   border: 1px solid white;
 }
 .iconbox{
-  box-shadow: 0px 0px 15px black;
   color: rgb(203, 203, 203);
   text-shadow: 0px 0px 15px white;
-  border: 2px solid rgb(203, 203, 203);
-  border-radius: 5px;
+
+  border-radius: 0px 10px;
+  /* border: 1px solid white; */
+  box-shadow: 0px 0px 20px white inset,
+  0px 0px 30px green;
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+
 }
 
 hr{
@@ -2183,12 +2219,20 @@ hr{
   margin-bottom: 15px;
 }
 .serviceIcon{
-  box-shadow: 0px 0px 15px black;
+  /* box-shadow: 0px 0px 15px black; */
   color: rgb(203, 203, 203);
   text-shadow: 0px 0px 15px white;
-  /* border: 2px solid rgb(203, 203, 203); */
-  border-radius: 5px;
-  
+
+  margin: auto;
+  width: 50%;
+  border-radius: 0px 5px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 20px white inset,
+  0px 0px 30px green;
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+
 }
 
 hr{
@@ -2413,8 +2457,9 @@ hr{
 }
 #lidescription:hover{
   border-radius: 10px 0px;
-  background-color: black;
-  box-shadow: 0px 0px 15px rgb(255, 255, 255) inset;
+  background-color: transparent;
+  color: rgb(0, 255, 0);
+  box-shadow: 0px 0px 15px rgb(0, 255, 0) inset;
 }
 .btnInscribirse{
   border-radius: 0px 5px;
@@ -2609,4 +2654,71 @@ hr{
   background-image: url('../images/backgrounds/astract0.jpg');
   box-shadow: 0px 20px 40px 0px rgba(0, 128, 0, 0.783) inset;
   /* box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.742) inset; */
+}
+.containerBlogSigle{
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 
+  0px 0px 50px white,
+  0px 0px 20px #57CBCC inset;
+  border-radius: 0px 10px;
+}
+.containerRowSigle{
+  margin: auto;
+}
+.imgBlogSingle{
+  border-radius: 0px 15px;
+  border: 2px solid white;
+  box-shadow: 
+  0px 0px 50px green,
+  0px 0px 7px white inset,
+  0px 0px 10px green;
+  margin-top: -20px;
+
+  padding: 5px;
+
+}
+.imgBlogSingle2{
+  border-radius: 0px 15px;
+  border: 2px solid green;
+  box-shadow: 0px 0px 50px green;
+
+  padding: 5px;
+
+}
+.textBlogSingle{
+  margin-top: -25px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  box-shadow: 
+  0px 0px 15px  white,
+  0px 0px 15px white inset;
+  border-radius: 0px 5px;
+  border: 1px solid white;
+
+  color: rgb(203, 203, 203);
+  
+}
+.pblogSingle{
+  padding: 5px;
+  border-radius: 0px 5px;
+  border: 1px solid black;
+  box-shadow: 
+  0px 0px 25px green inset,
+  0px 0px 25px rgba(255, 255, 255, 0.513) inset,
+  0px 0px 20px white;
+
+  background-image: url('../images/backgrounds/astract0.jpg');
+  background-repeat: round;
+
+}
+.h1blogSingle{
+  color: black;
+  text-shadow: 
+  0px 0px 5px white,
+  0px 0px 5px white,
+  0px 0px 5px white,
+  0px 0px 5px white;
+}
+.nameblog{
+  color: white;
 }
